@@ -585,11 +585,11 @@ Rules applicable to most pre-processor languages.
 
 ##### Good
 
-```sass
+```less
 // foo
 ```
 
-```sass
+```less
 .bar {
   // ...
 
@@ -601,11 +601,11 @@ Rules applicable to most pre-processor languages.
 
 ##### Bad
 
-```sass
+```less
 /* foo */
 ```
 
-```sass
+```less
 .bar {
   // ...
 }
@@ -626,15 +626,43 @@ Rules specific to Stylus.
 
 ##### Good _(Stylus)_
 
-```css
+```stylus
 // foo
+```
 
+```stylus
+.foo
+  color #f00
+```
+
+```stylus
+.foo
+  color #f00
+
+  .bar
+    padding 2px
 ```
 
 ##### Bad _(Stylus)_
 
-```css
+```stylus
 /* foo */
+```
+
+```stylus
+.foo {
+  color: #f00;
+}
+```
+
+```stylus
+.foo {
+  color: #f00;
+}
+
+.foo .bar {
+  padding: 2px;
+}
 ```
 
 ## License
