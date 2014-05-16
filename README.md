@@ -1,4 +1,3 @@
-# // CSS: The Good Parts
 # .bc-style-guide {
 
 > The so-called `"nico-style"` brought to markdown. **Because Style Guide**.
