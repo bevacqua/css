@@ -417,7 +417,7 @@ These rules apply to your CSS property values
   - Fine to use in limited cases
     - Overlays
     - Declarations of the `display: none !important;` type
-- Keep `z-index` levels in variables in a single file. **Avoids confusion** about what level should be given to an element, and arbitrarily-high ``999`-style values
+- Keep `z-index` levels in variables in a single file. **Avoids confusion** about what level should be given to an element, and arbitrarily-high `999`-style values
 - Use hex color codes `#000` unless there's an explicit need for an `rgba` declaration
 - Dislike magic numbers
 - Avoid mixing units
