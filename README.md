@@ -426,24 +426,24 @@ These rules apply to your CSS property values
 ##### Good
 
 ```css
-.btn-red {
-  color: #f00
-}
-
 .btn {
   color: #222;
+}
+
+.btn-red {
+  color: #f00;
 }
 ```
 
 ##### Bad
 
 ```css
-.btn {
-  color: #222;
-}
-
 .btn-red {
   color: #f00 !important;
+}
+
+.btn {
+  color: #222;
 }
 ```
 
