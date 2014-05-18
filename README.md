@@ -2,7 +2,7 @@
 
 > The so-called `"nico-style"` brought to markdown. **Because Style Guide**.
 
-This style guide is a jab at solving collisions between CSS class names, and issues that ultimately lead to confusion, having to use `!important` rules, copying and pasting style declarations, and other awful aspects of CSS developments.
+This style guide is a jab at solving collisions between CSS class names, and issues that ultimately lead to confusion, having to use `!important` rules, copying and pasting style declarations, and similarly awful aspects of CSS development.
 
 Astonishignly, this style guide won't do anything for you that you're not able to figure out for yourself. That means you won't see the benefits unless you try and follow most of the conventions laid out next.
 
