@@ -90,7 +90,7 @@ Classes that are meant to be shared among a large set of elements, or provide re
 }
 ```
 
-See [Nesting](#nesting) for information in regard to how styles should be overridden
+See [Selectors and Nesting](#selectors-and-nesting) for information in regard to how styles should be overridden
 
 ## Classes
 
@@ -259,7 +259,7 @@ Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`
 ```html
 <div class='ul-container'>
   <div class='uc-container'>
-    <span='uc-name ul-card-name'>John Doe</span>
+    <span class='uc-name ul-card-name'>John Doe</span>
   </div>
 </div>
 ```
@@ -275,7 +275,7 @@ Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`
 ```html
 <div class='ul-container'>
   <div class='uc-container'>
-    <span='uc-name'>John Doe</span>
+    <span class='uc-name'>John Doe</span>
   </div>
 </div>
 ```
@@ -291,7 +291,7 @@ Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`
 ```html
 <div class='ul-container'>
   <div class='uc-container'>
-    <span='uc-name uc-name-in-ul'>John Doe</span>
+    <span class='uc-name uc-name-in-ul'>John Doe</span>
   </div>
 </div>
 ```
