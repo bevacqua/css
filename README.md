@@ -9,7 +9,7 @@ Astonishignly, this style guide won't do anything for you that you're not able t
 
 <sub>The recommendations found in this style guide are generally **just guidelines** and aren't set in stone. Even if they're refered to as "rules". Disregard them at your own discretion.</sub>
 
-> Use together with [bevacqua/js][32] for great good!
+> Use together with [bevacqua/js][6] for great good!
 
 Feel free to fork this style guide, or better yet, send [Pull Requests][3] this way!
 
