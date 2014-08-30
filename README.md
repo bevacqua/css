@@ -4,9 +4,12 @@
 
 This style guide is a jab at solving collisions between CSS class names, and issues that ultimately lead to confusion, having to use `!important` rules, copying and pasting style declarations, and similarly awful aspects of CSS development.
 
+
 Astonishignly, this style guide won't do anything for you that you're not able to figure out for yourself. That means you won't see the benefits unless you try and follow most of the conventions laid out next.
 
 <sub>The recommendations found in this style guide are generally **just guidelines** and aren't set in stone. Even if they're refered to as "rules". Disregard them at your own discretion.</sub>
+
+> Use together with [bevacqua/js][32] for great good!
 
 Feel free to fork this style guide, or better yet, send [Pull Requests][3] this way!
 
@@ -678,3 +681,4 @@ MIT
 [3]: https://github.com/bevacqua/css/issues "bevacqua/css Issues on GitHub"
 [4]: http://necolas.github.io/normalize.css/ "A modern, HTML5-ready alternative to CSS resets"
 [5]: http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/ "The Many Faces of Mobile First"
+[6]: https://github.com/bevacqua/js
