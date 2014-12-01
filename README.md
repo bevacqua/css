@@ -4,10 +4,11 @@
 
 This style guide is a jab at solving collisions between CSS class names, and issues that ultimately lead to confusion, having to use `!important` rules, copying and pasting style declarations, and similarly awful aspects of CSS development.
 
+## Goal
 
-Astonishignly, this style guide won't do anything for you that you're not able to figure out for yourself. That means you won't see the benefits unless you try and follow most of the conventions laid out next.
+These suggestions aren't set in stone, they aim to provide a baseline you can use in order to write more consistent codebases. To maximize effectiveness, share the styleguide among your co-workers and attempt to enforce it. Don't become obsessed about code style, as it'd be fruitless and counterproductive. Try and find the sweet spot that makes everyone in the team comfortable developing for your codebase, while not feeling frustrated that their code always fails automated style checking because they added a single space where they weren't supposed to. It's a thin line, but since it's a very personal line I'll leave it to you to do the drawing.
 
-<sub>The recommendations found in this style guide are generally **just guidelines** and aren't set in stone. Even if they're refered to as "rules". Disregard them at your own discretion.</sub>
+> Astonishingly, this style guide won't do anything for you that you're not able to figure out for yourself. That means you won't see the benefits unless you try and follow most of the conventions laid out next.
 
 > Use together with [bevacqua/js][6] for great good!
 
