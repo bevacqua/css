@@ -531,7 +531,7 @@ Some rules apply to stylesheet, regardless of language.
 
 ```css
 .foo {
-    color: #foo;
+    color: #f00;
 }
 
 .foo, .bar, .baz {
@@ -563,7 +563,7 @@ These rules apply to every language except Stylus.
 
 ```css
 .foo{
-  color: #foo;
+  color: #f00;
 }
 
 .foo {
