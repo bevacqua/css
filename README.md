@@ -547,9 +547,8 @@ Some rules apply to stylesheet, regardless of language.
 
 These rules apply to every language except Stylus.
 
-- Use a single space after the colon
 - Always end property declarations with a semicolon
-- Put spaces after `:` in property declarations
+- Put a single space after `:` in property declarations
 - Put spaces before `{` in rule declarations
 
 ##### Good
