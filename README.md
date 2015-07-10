@@ -460,7 +460,7 @@ A few rules apply to media queries.
 - Settle for a few _(2-3)_ breakpoints and use those only
 - Don't wrap entire stylesheets in media queries
 - Instead, modularize media queries wherever possible, keep them relevant to the components
-- Approach your styles in a [Mobile First][5] manner. Generally you add more things as you get more real state. **Mobile First** logically follows
+- Approach your styles in a [Mobile First][5] manner. Generally you add more things as you get more real estate. **Mobile First** logically follows
 
 ##### Good
 
