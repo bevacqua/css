@@ -434,7 +434,7 @@ These rules apply to your CSS property values
   color: #222;
 }
 
-.btn-red {
+.btn-error {
   color: #f00;
 }
 ```
