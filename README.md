@@ -106,7 +106,7 @@ Class names must follow a few rules.
   - _Don't abbreviate words carelessly_
 - Name things consistently
 - Meaningful description of the elements that should use it
-- Keep your non-prefix word count below 4
+- Keep your non-prefix word count below
 
 ##### Good
 
@@ -191,7 +191,7 @@ While the `id` attribute might be fine in HTML and JavaScript, it should be **av
 }
 ```
 
-Just assign a class name to the element.
+Just assign a class name to the elements.
 
 ## Tag Names
 
