@@ -186,7 +186,7 @@ While the `id` attribute might be fine in HTML and JavaScript, it should be **av
 ##### Bad
 
 ```css
-#ur-name {
+# ur-name {
   // ...
 }
 ```
