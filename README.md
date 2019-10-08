@@ -442,7 +442,7 @@ These rules apply to your CSS property values
 ##### Bad
 
 ```css
-.btn-red {
+.btn-error {
   color: #f00 !important;
 }
 
