@@ -667,7 +667,37 @@ Rules specific to Stylus.
   padding: 2px;
 }
 ```
+##### Good
 
+```css
+#ddl-container {
+  // ...
+}
+
+#ddl-item-list {
+  // ...
+}
+
+#ddl-item {
+  // ...
+}
+```
+
+##### Bad
+
+```css
+#item-list {
+  // ...
+}
+
+#dropdown-item-list {
+  // ...
+}
+
+#xyz-item-list#dropdown-item-list  {
+  // ...
+}
+```
 ## License
 
 MIT
