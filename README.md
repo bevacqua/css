@@ -98,6 +98,15 @@ See [Selectors and Nesting](#selectors-and-nesting) for information in regard to
 
 ## Classes
 
+The .class selector selects elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the name of the class.
+
+You can also specify that only specific HTML elements should be affected by a class. To do this, start with the element name, then write the period (.) character, followed by the name of the class
+<div>
+.<em>class </em>{<br><em>&nbsp; css declarations</em>;<br>}
+<a target="_blank" class="w3-btn btnsmall" href="trysel.asp?selector=.intro">Demo</a>
+</div>
 Class names must follow a few rules.
 
 - Must be all-lowercase
@@ -168,6 +177,12 @@ a[href] {
 ```
 
 ## `id` attribute
+
+The CSS ID selector matches an element based on the value of the element’s id attribute. In order for the element to be selected, its id attribute must match exactly the value given in the selector. Example:-
+<pre class="brush: css no-line-numbers notranslate language-css"><code class=" language-css"><span class="token comment">/* The element with id="demo" */</span>
+<span class="token selector"><span class="token id">#demo</span></span> <span class="token punctuation">{</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> red <span class="token number">2</span><span class="token unit">px</span> solid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
 
 While the `id` attribute might be fine in HTML and JavaScript, it should be **avoided entirely** inside stylesheets. Few reasons.
 
