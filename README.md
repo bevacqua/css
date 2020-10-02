@@ -107,6 +107,7 @@ Class names must follow a few rules.
 - Name things consistently
 - Meaningful description of the elements that should use it
 - Keep your non-prefix word count below 4
+- Dot operator(.) should be used before class name
 
 ##### Good
 
@@ -547,7 +548,7 @@ Some rules apply to stylesheet, regardless of language.
 
 These rules apply to every language except Stylus.
 
-- Always end property declarations with a semicolon
+- Always end property declarations with a semicolon `;`
 - Put a single space after `:` in property declarations
 - Put spaces before `{` in rule declarations
 
