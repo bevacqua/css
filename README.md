@@ -258,6 +258,8 @@ If a component needs to be different within another component, these rules apply
 
 Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`.
 
+Code begins from here:-
+
 ##### Good
 
 ```html
@@ -343,6 +345,8 @@ Where possible, it's suggested to explicitly split styles into these two categor
 - _(good)_ A line-break between both categories
 - _(better)_ Split in subsequent style declarations using the same selector
 - _(best)_ Declaring the rules in different files altogether
+
+Code begins from here:-
 
 ##### Good
 
