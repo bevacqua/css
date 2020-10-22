@@ -28,9 +28,9 @@ Feel free to fork this style guide, or better yet, send [Pull Requests][3] this 
 1. [Media Queries](#media-queries)
 1. [Frameworks and Vendor Styles](#frameworks-and-vendor-styles)
 1. [Languages](#languages)
-  - [Not Stylus](#not-stylus)
-  - [Not CSS](#not-css)
-  - [Stylus](#stylus)
+    - [Not Stylus](#not-stylus)
+    - [Not CSS](#not-css)
+    - [Stylus](#stylus)
 1. [License](#license)
 
 ## Namespaces
@@ -108,7 +108,7 @@ Class names must follow a few rules.
 - Meaningful description of the elements that should use it
 - Keep your non-prefix word count below 4
 
-##### Good
+##### Good:
 
 ```css
 .ddl-item {
@@ -124,7 +124,7 @@ Class names must follow a few rules.
 }
 ```
 
-##### Bad
+##### Bad:
 
 ```css
 .ddlItem {
@@ -140,14 +140,14 @@ Class names must follow a few rules.
 }
 ```
 
-## Attributes
+## Attributes:
 
 Attributes make decent selectors from time to time. Some ground rules apply.
 
 - If the "exists" check suffices, use that
 - Don't overqualify using a tag name
 
-##### Good
+##### Good:
 
 ```css
 [href] {
@@ -155,7 +155,7 @@ Attributes make decent selectors from time to time. Some ground rules apply.
 }
 ```
 
-##### Bad
+##### Bad:
 
 ```css
 a[href] {
@@ -175,7 +175,7 @@ While the `id` attribute might be fine in HTML and JavaScript, it should be **av
 - Priority nightmares
 - [“Bad Code”, Dogmatism, etc.][1]
 
-##### Good
+##### Good:
 
 ```css
 .ur-name {
@@ -183,7 +183,7 @@ While the `id` attribute might be fine in HTML and JavaScript, it should be **av
 }
 ```
 
-##### Bad
+##### Bad:
 
 ```css
 #ur-name {
@@ -227,7 +227,7 @@ button {
 
 Styles shouldn't need to be nested more than three _(four at worst)_ levels deep. This includes pseudo-selectors. If you find yourself going further, think about re-organizing your rules _(either the specificity needed, or the layout of the nesting)_.
 
-##### Good
+##### Good:
 
 ```css
 .sg-title-icon:before {
@@ -239,7 +239,7 @@ Styles shouldn't need to be nested more than three _(four at worst)_ levels deep
 }
 ```
 
-##### Bad
+##### Bad:
 
 ```css
 .dg-container .sg-container .sg-title {
@@ -258,7 +258,7 @@ If a component needs to be different within another component, these rules apply
 
 Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`.
 
-##### Good
+##### Good:
 
 ```html
 <div class='ul-container'>
@@ -274,7 +274,7 @@ Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`
 }
 ```
 
-##### Okay
+##### Okay:
 
 ```html
 <div class='ul-container'>
@@ -290,7 +290,7 @@ Suppose you have a User List component `.ul-*` and a User Card component `.uc-*`
 }
 ```
 
-##### Bad
+##### Bad:
 
 ```html
 <div class='ul-container'>
@@ -344,7 +344,7 @@ Where possible, it's suggested to explicitly split styles into these two categor
 - _(better)_ Split in subsequent style declarations using the same selector
 - _(best)_ Declaring the rules in different files altogether
 
-##### Good
+##### Good:
 
 ```css
 .foo {
