@@ -28,9 +28,9 @@ Feel free to fork this style guide, or better yet, send [Pull Requests][3] this 
 1. [Media Queries](#media-queries)
 1. [Frameworks and Vendor Styles](#frameworks-and-vendor-styles)
 1. [Languages](#languages)
-  - [Not Stylus](#not-stylus)
-  - [Not CSS](#not-css)
-  - [Stylus](#stylus)
+  - [Not Stylus](#not-stylus).
+  - [Not CSS](#not-css).
+  - [Stylus](#stylus).
 1. [License](#license)
 
 ## Namespaces
